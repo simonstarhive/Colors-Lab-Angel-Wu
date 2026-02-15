@@ -1,3 +1,4 @@
+
 # COLORS LAMP Application
 
 ## Description
@@ -37,5 +38,6 @@ Use Postman or frontend UI to test API endpoints.
 - Password hashing uses MD5 (for class purposes only)
 - No HTTPS configured
 - Minimal input validation
+
 
 
