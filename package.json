@@ -1,15 +1,16 @@
 {
   "name": "colors-lamp",
   "version": "1.0.0",
+  "type": "module",
   "description": "COLORS is a web application built using the LAMP stack that allows users to:\r - Log in\r - Add colors to their account\r - Search for stored colors",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "lint": "eslint . && stylelint \"**/*.css\" && htmlhint \"**/*.html\""
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . && stylelint \"**/*.css\" && htmlhint \"**/*.html\""
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simonstarhive/Colors-Lab-Angel-Wu.git"
@@ -27,6 +28,4 @@
     "stylelint": "^17.6.0",
     "stylelint-config-standard": "^40.0.0"
   }
-
-  
 }
