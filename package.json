@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest",
-  "lint": "eslint . && stylelint \"**/*.css\" && htmlhint \"**/*.html\""
+    "lint": "eslint . && stylelint \"**/*.css\" && htmlhint \"**/*.html\""
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "eslint": "^10.2.0",
     "htmlhint": "^1.9.2",
     "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
     "stylelint": "^17.6.0",
     "stylelint-config-standard": "^40.0.0"
   }

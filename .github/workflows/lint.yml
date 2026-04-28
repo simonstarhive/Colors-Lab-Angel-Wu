@@ -31,5 +31,5 @@ jobs:
     - name: Run Stylelint
       run: npx stylelint "public/css/**/*.css"
 
-    - name: Run Tests
+    - name: Run jest Tests
       run: npm test 
